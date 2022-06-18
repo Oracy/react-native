@@ -1,0 +1,23 @@
+{
+	"Componente Funcional": {
+		"scope": "javascript,typescript",
+		"prefix": "compfunc",
+		"body": [
+			"import React, {Fragment} from 'react';",
+			"import { Text } from 'react-native';",
+			"import Style from './estilo';",
+			"",
+			"const ${1:funcName} = (props) => {",
+			"   return (",
+            "   <Fragment>",
+            "       <Text style={Style.fontG}>",
+            "           ${2}",
+            "       </Text>",
+            "   </Fragment>",
+			"   );",
+			"};",
+			"export default ${1:funcName};",
+		],
+		"description": "Log output to console"
+	}
+}
